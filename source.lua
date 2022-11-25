@@ -1,4 +1,3 @@
-if game.PlaceId == 2788229376 then
     getgenv().adverting = false
     local vu = game:GetService("VirtualUser")
     game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -2562,7 +2561,3 @@ if game.PlaceId == 2788229376 then
             end
         end
     end
-
-else
-    game.Players.LocalPlayer:Kick("Only da hood.")
-end
